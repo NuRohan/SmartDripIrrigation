@@ -60,34 +60,24 @@
         android:layout_below="@+id/seg1"
         android:layout_alignStart="@+id/seg1" />
 
-    <Button
-        android:text="Refresh"
-        android:background="@color/btnBackground"
-        android:textColor="@color/btnTextColor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/value2"
-        android:layout_alignEnd="@+id/seg2"
-        android:layout_marginTop="44dp"
-        android:id="@+id/refresh" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/refresh"
         android:layout_alignStart="@+id/value2">
 
-        <Button
-            android:text="Go Now"
-            android:background="@color/btnBackground"
-            android:textColor="@color/btnTextColor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/value2"
-            android:layout_alignEnd="@+id/seg2"
-            android:layout_marginTop="44dp"
-            android:id="@+id/goNow"
-            android:layout_weight="1" />
     </LinearLayout>
+
+    <Button
+        android:text="Refresh"
+        android:background="@color/btnBackground"
+        android:textColor="@color/btnTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:id="@+id/refresh"
+        android:layout_below="@+id/value2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
